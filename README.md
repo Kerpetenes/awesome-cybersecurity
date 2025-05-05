@@ -18,32 +18,6 @@ Bu liste siber güvenlik öğrenirken işime yarayan kaynakları, araçları kap
 
 ## Blog ve kaynaklar
 - [HackerOne Reports](https://hackerone.com/hacktivity)
-- [luNiZz](github.com/LuNiZz)
-
-## Kendi projelerim, notlarım
-Bu kısımda kendi araştırmalarımdan öğrendiğim konuların detaylarını Markdown dosyaları şeklinde paylaşıyorum
-
-# Awesome siber güvenlik listesi
-
-Bu liste siber güvenlik öğrenirken işime yarayan kaynakları, araçları kapsar.
-
-## Eğitim Platformları
-- [Tryhackme](https://tryhackme.com)
-- [Hack The Box](https://hackthebox.com)
-- [Portswigger Academy](https://portswigger.net/web-academy)
-- [Cyberexam](https://cyberexam.com)
-- [Pentesterlab](https://pentesterlab.com) # Ekstra olarak bugbounty için bir developer nasıl düşünür. öğrenmek için tavsiye ederim.
-
-## Araçlar
-- [Nmap](https://nmap.org)
-- [Burp Suite](https://portswigger.net/burp)
-- [Gobuster](https://kali.org/tools/gobuster)
-- [Sublist3r](https://kali.org/tools/sublist3r)
-- [Metasploit](https://metasploit.help.rapid7.com)
-
-## Blog ve kaynaklar
-- [HackerOne Reports](https://hackerone.com/hacktivity)
-- [luNiZz](github.com/LuNiZz)
 
 ## Kendi projelerim, notlarım
 Bu kısımda kendi araştırmalarımdan öğrendiğim konuların detaylarını Markdown dosyaları şeklinde paylaşıyorum
