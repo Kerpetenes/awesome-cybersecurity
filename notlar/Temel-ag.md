@@ -17,6 +17,7 @@ TCP/IP modeli, pratik uygulamalarda internetteki etkileşimi daha iyi sunan 4 ka
 3- Transport 		tcp, udp
 2-İnternet		    ip, icmp, arp
 1-Link Layer		ethernet, wifi
+
 ![TCP/Ip Katmanları](img/tcp-ip.png)
 
 ## IP ADRESLEME
@@ -38,6 +39,7 @@ Http protokolü dünya çapında ağ üzerinden veri gönderebilmek üzerine kur
 
 ### 53 DNS (Domain Name System, Alan Adı Sistemi) 
 Bu protokol günümüzde HTTP ve HTTPS ile kullanılmaktadır. Browserı açtığımızda bir web sayfasına ulaşabilmek için, web sayfasının barındığı sunucunun ip adresini yazmamız gerekmektedir. Bir ip adresinde sorun olmasa da günümüzde bu durum imkansızdır. Burada DNS protokolü devreye girer. DNS protokolü kısaca web sayfalarının IP adresine bir isim vermektir diyebiliriz.
+
 ![DNS](img/DNS.png)
 
 ### 21 FTP (File Transfer Protokol – Dosya Transfer Protokolü)
@@ -48,6 +50,7 @@ E-Posta gönderimi için hazırlanan bir protokoldür. Gönderilen mailin güven
 
 ### - ARP (Address Resolution Protocol)
 Bir ağa bağlı cihazlar birbirleri ile haberleşmek için IP adresine değil Ethernet kartlarının ROM belleklerinde yazılı olan MAC (Media Access Control – Ortam Erişim Kontrolü) üzerinden iletişim sağlamaktadır. MAC adresler fabrika çıkışı sırasında o karta verilir ve normal yollarla değiştirilemezler. Basitçe IP adreslerini MAC adreslerine çevirir, yerel ağdaki cihazların birbirini bulmasını sağlar.
+
 ![ARP](img/ARP.png)
 
 ### - ICMP (Internet Control Message Protocol)
@@ -76,11 +79,13 @@ MS
 53-54 ms, bir paketin hedefe gidip gelip size geri dönmesi için yaklaşık 53-54 milisaniye harcandığını gösterir.
 TTL
 TTL, bir IP paketinin ağ üzerinde dolaşabileceği maksimum "yaşam süresini" ya da geçebileceği router (hop) sayısını belirler. Her router geçişinde bu değer 1 azalır. TTL değeri 0’a ulaştığında paket, bir sonraki yönlendirici tarafından düşürülür.
+
 ![Ping Komutu](img/Ping.png)
 
 ## Tracert
 tracert komutu, veri paketinin hangi yönlendiricilerden geçtiğini adım adım görmenizi sağlayan, ağ tanılama açısından oldukça güçlü bir araçtır. Hem yerel ağınızın hem de internet servis sağlayıcınızın ve hedef sunucunun hangi noktada yer aldığını gözlemleyebilir, gecikme ve olası sorunları tespit edebilirsiniz.
 Yukarıdaki resimde de görüldüğü gibi 11 adet hop vardır. Hepsinin ms’ini resimde görebiliyoruz. Son gelen yerde de google’ın bir domainini görüyoruz. 49-54 ms arası değişiklik gösterdiğini görebiliyoruz.
+
 ![Ping Komutu](img/Tracert.png)
 
 ## netstat
@@ -93,4 +98,5 @@ State: Bağlantının durumunu gösterir. Yaygın durumlar arasında;
 •	LISTENING: Bir port üzerinden gelen bağlantıları dinliyor.
 •	ESTABLISHED: Aktif, kurulan bir bağlantı var.
 •	TIME_WAIT: Bağlantı kapatıldıktan sonra, son paketlerin yavaşlamaması için belirli bir süre bekleniyor.
+
 ![netstat](img/netstat.png)

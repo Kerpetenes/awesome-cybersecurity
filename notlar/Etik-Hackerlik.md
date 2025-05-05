@@ -23,6 +23,7 @@ kullandığı yöntemleri ve araçları bilen, bazen yasaları ihlal eden, fakat
 Beyaz şapkalı hacker, black hat hackerların kullandığı yöntemleri ve araçları bilen, iyi 
 niyetli hackerlardır. Bu tür hackerlar hukuk çerçevesi dışına çıkmayacak işler yapar. Bu 
 tür hackerlar genellikle devlet, istihbarat ve para için yapmaktadır. 
+
 ![Hacker](img/hacker.jpg)
 
 ## Penetrasyon testi
@@ -43,16 +44,22 @@ toollara değineceğiz.
 ## Toollar
 ### Wireshark
 Yüzlerce farklı protokolü derinlemesine inceleyebilen bir araçla web uygulamalarını test edebilmemizi sağlayan mükemmel bir araç.
+
 ![Wireshark](img/wireshark.png)
+
 Bu aracı bu kadar önemli yapan şey, bir ağ paketi dinleyicisi ile entegre olmasıdır. Bu sayede yüzlerce protokol üzerinde derinlemesine bir inceleme yapılabilir.	
 Web uygulamaları için normal sızma testi araçlarından farklı kılan bir diğer şey de kullanım kolaylığıdır. Verileri kolayca sıkıştırabilir, açabilir ve dışa aktarabilirsiniz
 
 ### NMAP
 Network Mapper'ın kısaltması olan Nmap, çoğu pentester tarafından tavsiye edilen bir pentest aracıdır. Bu araç, kullanıcıların web uygulamaları için sızma testi yapmasına ve kullanıcıların ağlarını taramasına olanak tanır.
+
 ![nmap](img/nmap.png)
+
 Ağ taraması, uygulamanızda kalan güvenlik açıklarını kontrol etmenize olanak tanır. Bu, web uygulamalarına tam olarak sızma testi yapabileceğiniz anlamına gelir.
 Aşağıdaki fotoğrafta ağ taraması yapma örneği verilmiştir
+
 ![nmap tarama örneği](img/nmap-tarama.png)
+
 Burada Portları durumları ve servisleri görebiliriz. (örn: Port 22, State open, Service SSH)
 komutun tam haline erişmek ve yukarıdaki görseldeki ekstra parametleri öğrenmek için Linux terminalimize; 
     •	man nmap
@@ -60,18 +67,23 @@ Yazıp nmap hakkında her türlü bilgiye erişebiliriz.
 
 ### Metasploit
 Metasploit, penetrasyon testi için gelişmiş ve popüler bir çerçevedir.
+
 ![Metasploit](img/Metasploit.png)
+
 Metasploit sadece sistemin zayıflıklarını tanımlamakla kalmaz, aynı zamanda bunları daha fazla kullanmaya çalışır. Sonuç olarak,
 kusurları hızlı bir şekilde izole edebilir ve gösterebilir ve bir şeyleri düzeltebilirsiniz.
 Ayrıca, Metasploit manuel istismarları ve testleri otomatikleştirme yeteneği sunar.
 
 ### Nikto
 Nikto, web uygulamalarınızı potansiyel güvenlik tehditlerine karşı test etmenize yardımcı olan açık kaynaklı bir tarayıcıdır. Derinlemesine testler yapabilir ve yaklaşık 7000 kötü amaçlı uygulama ve dosyayı yakalayabilir.
+
 ![Nikto](img/nikto.png)
 
 ### Burp suite
-Burp Suite olmazsa olmazımızdır. PortSwigger tarafından geliştirilmiş bir araçtır. Genellikle sızma testi uzmanları tarafından kullanılır. Hatta portswigger’ın kendi sitesinde Burp suite eğitimlerine ücretsiz bir şekilde erişebilirsiniz.   
+Burp Suite olmazsa olmazımızdır. PortSwigger tarafından geliştirilmiş bir araçtır. Genellikle sızma testi uzmanları tarafından kullanılır. Hatta portswigger’ın kendi sitesinde Burp suite eğitimlerine ücretsiz bir şekilde erişebilirsiniz.  
+
 [Portswigger Academy](https://portswigger.net/web-academy)
+
 ![Nikto](img/burp.png)
 
 ## Hack the pentagon
